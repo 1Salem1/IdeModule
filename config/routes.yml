@@ -1,0 +1,5 @@
+ide:
+    path: ide
+    methods: [GET]
+    defaults:
+      _controller: 'IdeModule\Controller\IdeController::demoAction'

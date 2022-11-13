@@ -1,0 +1,20 @@
+{
+    "name": "salem/idetest",
+    "description": " a controller to handle ide ",
+    "autoload": {
+      "psr-4": {
+        "IdeModule\\": "src/"
+      }
+    },
+    "config": {
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module",
+    "require": {
+        "symfony/http-foundation": "^5.4",
+        "doctrine/orm": "^2.11.0",
+        "doctrine/dbal": "^3.2",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4"
+    }
+}
