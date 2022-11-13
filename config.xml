@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>IdeModule</name>
+	<displayName><![CDATA[Gestionnaire des licences pour utilisateurs]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[un module permettant d’importer une liste d’éditeur
+de code (IDE) afin de vendre des licences aux utilisateurs.]]></description>
+	<author><![CDATA[Salem Dahmani]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
